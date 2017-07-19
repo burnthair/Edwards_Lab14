@@ -1,0 +1,71 @@
+body {
+  font-family: 'Mouse Memoirs', sans-serif;
+  color: #334;
+}
+
+nav {
+  padding: 30px;
+  background: #fc32ee; /* Old browsers */
+  background: -moz-linear-gradient(left, #fc32ee 0%, #eac7e9 49%, #aff2a7 64%, #7db9e8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #fc32ee 0%,#eac7e9 49%,#aff2a7 64%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #fc32ee 0%,#eac7e9 49%,#aff2a7 64%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc32ee', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+  z-index: 0;
+}
+
+nav a {
+  margin: 30px;
+  text-decoration: none;
+  color: #EDE;
+  font-size: 3em;
+  letter-spacing: .3em;
+}
+
+ng-view {
+  margin: 0 auto;
+  width: 80%;
+  min-height: 400px;
+}
+
+#home-link {
+  font-family: serif;
+  letter-spacing: 0;
+}
+
+#home-link:hover {
+  background-image: url('./img/house.png');
+  background-size: .8em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+
+#dog-link:hover {
+  background-image: url('./img/dog_silhouette.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+
+#cat-link:hover {
+  background-image: url('./img/cat_silhouette.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+
+#welcome-message {
+  width: 40%;
+  margin-top: 20px;
+  background-color: #FBD;
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 4px 2px 6px #334;
+  max-width: 400px;
+}
